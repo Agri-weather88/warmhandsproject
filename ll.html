@@ -1,0 +1,252 @@
+`html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Warm Hands Project</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Open Sans', sans-serif;
+      background: url('https://www.bing.com/images/search?q=image+of+poor+kids+playing&id=E412E6CB5142AED31367C855583C6218CBE94229&FORM=IACFIR') no-repeat center center fixed;
+      background-size: cover;
+      color: #f0f0f0;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0, 70, 32, 0.65);
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 1;
+      background: rgba(46, 125, 50, 0.9);
+      padding: 50px 20px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 1.3rem;
+      color: #e0f2f1;
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 850px;
+      margin: 40px auto 80px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      color: #333;
+      padding: 40px 50px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #2e7d32;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 20px;
+    }
+  p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+
+    .cta {
+      background-color: #e8f5e9;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1b5e20;
+    }
+
+    form {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px 35px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+
+  form label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 12px 14px;
+      margin-bottom: 25px;
+border: 1.5px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    form input:focus, form select:focus, form textarea:focus {
+      border-color: #2e7d32;
+      outline: none;
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    form button {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    form button:hover {
+      background-color: #256428;
+    }
+
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 25px 15px;
+      background: rgba(0,0,0,0.65);
+      color: #eee;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 25px 20px;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Warm Hands Project</h1>
+  <p>Not Just Charity, Reparative Action</p>
+</header>
+
+<main>
+  <section>
+    <h2>About the Project</h2>
+    <p>
+Warm Hands Project is a youth-led humanitarian initiative committed to providing food, clothing, and emotional support to street children and underprivileged youth across Namibia.
+      Founded by a young changemaker from Northern Namibia who has witnessed these hardships firsthand, the project seeks to restore dignity, hope, and long-term support — not through charity, but through shared accountability and deep community engagement.
+    </p>
+  </section>
+
+  <section>
+    <h2>Regions Open for Application</h2>
+    <p>We are forming teams in all 14 regions of Namibia:</p>
+    <p><strong>Zambezi • Kavango East • Kavango West • Ohangwena • Omusati • Oshana • Oshikoto • Otjozondjupa • Omaheke • Kunene • Khomas • Erongo • Hardap • //Kharas</strong></p>
+  </section>
+
+  <section>
+    <h2>Requirements</h2>
+    <ul>
+      <li>✔ Must reside in the region you apply for</li>
+      <li>✔ Be available for monthly team check-ins, community outreach, and events</li>
+      <li>✔ Commit to the vision of sustainable impact through transparency and community service</li>
+    </ul>
+  </section>
+
+  <div class="cta">
+    <h3>Deadline: 3 July 2025</h3>
+    <p><em>This isn’t just aid. This is accountability.</em></p>
+  </div>
+
+  <section>
+    <h2>Apply Now</h2>
+<form action="https://formsubmit.co/hamutenyaroini4@gmail.com" method="POST">
+
+
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="Full Name" required />
+
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="Email" required />
+
+      <label for="phone">Phone Number *</label>
+      <input type="tel" id="phone" name="Phone Number" required />
+
+      <label for="region">Region Applying For *</label>
+      <select id="region" name="Region" required>
+        <option value="" disabled selected>Select your region</option>
+        <option>Zambezi</option>
+        <option>Kavango East</option>
+        <option>Kavango West</option>
+        <option>Ohangwena</option>
+        <option>Omusati</option>
+        <option>Oshana</option>
+        <option>Oshikoto</option>
+        <option>Otjozondjupa</option>
+        <option>Omaheke</option>
+        <option>Kunene</option>
+        <option>Khomas</option>
+        <option>Erongo</option>
+        <option>Hardap</option>
+        <option>//Kharas</option>
+      </select>
+
+      <label for="availability">Are you available for monthly check-ins and events? *</label>
+      <select id="availability" name="Availability" required>
+<option value="" disabled selected>Select</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+
+      <label for="motivation">Why do you want to join the Warm Hands Project? *</label>
+      <textarea id="motivation" name="Motivation" required></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  © 2025 Warm Hands Project. All rights reserved.
+</footer>
+
+</body>
+</html>
+```
+
